@@ -1,6 +1,7 @@
 # z-tilting
 shader based 2.5D depth sorting
 
+Maintained by: Ariaks
 
 Link to YoYo Games Tech Blog in this subject:
 https://www.yoyogames.com/blog/458/z-tilting-shader-based-2-5d-depth-sorting
