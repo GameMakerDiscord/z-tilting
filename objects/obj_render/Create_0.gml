@@ -23,9 +23,13 @@ enum RenderState{
 	reset,
 	size
 }
-renderstate=RenderState.set; // default  
-layer_script_end(layer_get_id("blyr"),render_layer_master) // start zbuffering after background has drawn and cleared the screen!
-layer_script_begin(layer_get_id("ilyr_controllers"),render_layer_master) // end zbuffering before controllers run
+renderstate=RenderState.set; // default
+
+layer_script_end(layer_get_id("blyr"),render_layer_tilemap) // start zbuffering after background has drawn and cleared the screen!
+layer_script_end(layer_get_id("tiles_mid"),render_layer_objects) // enable corner IDs for tilting sprites
+layer_script_end(layer_get_id("alyr_terrain_mid"),render_layer_tilemap) // disable corner IDs when drawing more tile layers
+layer_script_end(layer_get_id("tiles_high"), render_layer_objects) // enable corner IDs again
+layer_script_begin(layer_get_id("ilyr_controllers"),render_layer_reset) // end zbuffering before controllers run
 
 /// === Tilt Asset Layer Sprites by modifying the alpha channel === //
 tilt=true;
