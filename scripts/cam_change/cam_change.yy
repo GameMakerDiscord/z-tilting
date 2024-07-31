@@ -1,8 +1,13 @@
 {
-    "id": "e3450ffa-ba5c-4449-a5c4-81e818a96deb",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "cam_change",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "$GMScript":"v1",
+  "%Name":"cam_change",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cam_change",
+  "parent":{
+    "name":"Rudimentary 3D",
+    "path":"folders/Scripts/Rudimentary 3D.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

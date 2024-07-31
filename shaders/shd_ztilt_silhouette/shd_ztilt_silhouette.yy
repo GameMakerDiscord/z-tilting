@@ -1,7 +1,12 @@
 {
-    "id": "5cdf0926-191a-4c50-9f7f-97c1981b93c3",
-    "modelName": "GMShader",
-    "mvc": "1.0",
-    "name": "shd_ztilt_silhouette",
-    "type": 1
+  "$GMShader":"",
+  "%Name":"shd_ztilt_silhouette",
+  "name":"shd_ztilt_silhouette",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
 }

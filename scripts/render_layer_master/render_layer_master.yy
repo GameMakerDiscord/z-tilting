@@ -1,8 +1,13 @@
 {
-    "id": "5f23c4da-fa42-4480-bddf-5c65eb1abc45",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "render_layer_master",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "$GMScript":"v1",
+  "%Name":"render_layer_master",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"render_layer_master",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
